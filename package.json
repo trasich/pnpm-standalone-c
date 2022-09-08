@@ -1,6 +1,6 @@
 {
     "name": "@trasich/pnpm-standalone-c",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "st",
     "license": "UNLICENSED",
     "main": "lib/standalone-c.js",
@@ -10,7 +10,7 @@
         "dist/{,!(docs)/**/}!(*.spec).*",
         "src/**/!(*.spec).*"
     ],
-    "dependencies": {
+    "peerDependencies": {
         "@trasich/mono-b":"^0.1.0"
     }
 }
