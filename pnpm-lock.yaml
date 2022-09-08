@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@trasich/mono-b': ^0.1.0
+
+dependencies:
+  '@trasich/mono-b': 0.1.0
+
+packages:
+
+  /@trasich/mono-b/0.1.0:
+    resolution: {integrity: sha512-1T/tZFLlcuC9/BnGTreY/1rpmOgpD+OxxrTRS7/gfWHUGfaY+4U/SKa0y27B/qulnsZ2punqimysYYerVBGeCw==, tarball: download/@trasich/mono-b/0.1.0/86cc7060e8335e39748ebd3f110cd4f0030e354a}
+    dev: false

@@ -1,0 +1,10 @@
+# to make use of this config run this command:
+#   git config --local include.path ../.gitconfig
+
+# adding shell command alias:
+#   git config --local alias.count "! some shell code"
+# it will show up in .git/config
+
+[alias]
+	unstage = reset HEAD --
+	diff-stat = diff --numstat --shortstat

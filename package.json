@@ -1,0 +1,16 @@
+{
+    "name": "@trasich/pnpm-standalone-c",
+    "version": "0.1.0",
+    "author": "st",
+    "license": "UNLICENSED",
+    "main": "lib/standalone-c.js",
+    "scripts": {
+    },
+    "files": [
+        "dist/{,!(docs)/**/}!(*.spec).*",
+        "src/**/!(*.spec).*"
+    ],
+    "dependencies": {
+        "@trasich/mono-b":"^0.1.0"
+    }
+}
